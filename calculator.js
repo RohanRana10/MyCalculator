@@ -91,7 +91,7 @@ for(var i = 0; i<buttons.length; i++){
             
         }
         else{
-            if(display.innerText == '0'){
+            if(display.innerText == '0' || display.innerText == 'Error'){
                 display.innerText = "";
             }
             display.innerText += value;
